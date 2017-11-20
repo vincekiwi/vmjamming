@@ -3,11 +3,6 @@ const spotifyAPIURIBase = 'https://api.spotify.com/v1/';
 const clientId = '02b9f4427ca9433e8837afac67ca6825';
 const redirectURI = 'https://vmjamming.surge.sh'
 
-<<<<<<< HEAD
-=======
-// const redirectURI = 'localhost:3000';
-
->>>>>>> origin/master
 let accessToken;
 
 
