@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
+=======
 // Not used import logo from './logo.svg';
+>>>>>>> origin/master
 import './App.css';
 import Spotify from '../../util/Spotify.js';
 import SearchBar from '../SearchBar/SearchBar.js';
@@ -14,7 +17,10 @@ class App extends React.Component {
         this.updatePlaylistName = this.updatePlaylistName.bind(this);
         this.savePlaylist = this.savePlaylist.bind(this);
         this.search = this.search.bind(this);
+<<<<<<< HEAD
+=======
         // this.onNameChange = this.onNameChange.bind(this);
+>>>>>>> origin/master
     this.state = {
       searchResults: [],
       playlistName: "New Playlist",
@@ -70,7 +76,10 @@ class App extends React.Component {
               playlistName={this.state.playlistName}
               playlistTracks={this.state.playlistTracks}
               onRemove={this.removeTrack}
+<<<<<<< HEAD
+=======
               // onNameChange={this.updatePlaylistName}
+>>>>>>> origin/master
               onSave={this.savePlaylist} />
           </div>
         </div>
